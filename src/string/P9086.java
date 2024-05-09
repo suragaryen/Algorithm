@@ -8,7 +8,7 @@ public class P9086 {
 			
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
-		String word[] = new String[n];
+		String[] word = new String[n];
 		
 		
 		

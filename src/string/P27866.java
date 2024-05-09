@@ -13,11 +13,14 @@ public class P27866 {
 		Scanner sc = new Scanner(System.in);
 		
 		String S = sc.next();
-		int i = sc.nextInt()-1;
+		int i = sc.nextInt()-1; // chatAt()이 0부터 시작하기 때문에 1을 빼줌
+
+		System.out.println(S.charAt(i));
+
 		
-	
+
 		
-		System.out.println(i);
+
 	}
 
 }
