@@ -18,10 +18,12 @@ public class P11720 {
             num += st.charAt(i) - '0';
 
             //1. 문자열의 i 번째 값을 char로 변환
-            //2. 1번의 값에서 '0' (48)을 빼주면 원하는 값이 나온다. 
+            //2. 1번의 값에서 '0' (48)을 빼주면 원하는 값이 나온다.
 
         }
+        sc.close();
         System.out.println(num);
+
     }
 
 }

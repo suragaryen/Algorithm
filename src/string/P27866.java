@@ -15,6 +15,9 @@ public class P27866 {
 		String S = sc.next();
 		int i = sc.nextInt()-1; // chatAt()이 0부터 시작하기 때문에 1을 빼줌
 
+		sc.close();
+
+
 		System.out.println(S.charAt(i));
 
 		

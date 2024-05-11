@@ -10,6 +10,7 @@ public class P11654 {
 
         int ch = in.next().charAt(0);
 
+        in.close();
         System.out.println(ch);
 
     }
